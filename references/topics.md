@@ -1,9 +1,19 @@
-# Topics
+# Research Topics
 
-## Short list
+## Short-term
 
-- HIP kernel execution
-- ROCm environment validation
-- compute-bound vs memory-bound performance
-- benchmark reproducibility
-- workload portability
+- Compute-bound kernel characterization
+- Memory-bound kernel characterization
+- Basic profiling integration
+
+## Medium-term
+
+- Roofline model analysis
+- Multi-GPU scaling behavior
+- Power efficiency measurement
+
+## Long-term
+
+- Cross-vendor comparison
+- Custom kernel optimization
+- Application-level profiling
