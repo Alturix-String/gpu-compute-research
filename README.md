@@ -1,23 +1,23 @@
 # gpu-compute-research
 
-A repository for GPU compute research notes, experiments, and benchmark references.
+A research-oriented repository for GPU compute workload documentation and benchmark planning.
 
 ## Overview
 
-This repo is intended as a working research notebook.
+This repository is designed as a lightweight technical notebook.
 
-It contains:
-- notes on compute-bound workloads
-- benchmark templates
-- references to HIP/ROCm experimentation
-- documentation for future GPU experiments
+It focuses on:
+- documenting GPU compute directions
+- identifying workload categories
+- preparing benchmark templates
+- separating research notes from runnable examples
 
-## Goals
+## Key features
 
-- document GPU compute directions clearly
-- separate research notes from runnable examples
-- create a reusable foundation for later benchmarks
-- make experiment intent explicit
+- research plan documentation
+- architecture notes
+- benchmark result templates
+- references for future GPU compute experiments
 
 ## Repository layout
 
@@ -36,6 +36,10 @@ gpu-compute-research/
     └── topics.md
 ```
 
-## Notes
+## Why this project exists
 
-This repository focuses on documentation and experiment planning rather than large code.
+This repository exists to support structured research and planning for GPU compute workloads.
+
+## License
+
+MIT
