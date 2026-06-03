@@ -1,13 +1,17 @@
 # Architecture
 
-This repository is designed as a lightweight research workspace.
+## System Design
 
-## Layout
+This repository is organized as a research workspace.
 
-- `docs/` holds research notes and architecture context
-- `benchmarks/` stores experiment results
-- `references/` captures future technical directions
+- `experiments/` contains runnable experiment scripts
+- `kernels/` contains kernel implementations
+- `analysis/` contains visualization and comparison tools
+- `docs/` contains research documentation
 
-## Why this structure?
+## Data Flow
 
-It keeps research reasoning separate from runnable experiments.
+1. Experiment script generates workload
+2. Kernel executes workload
+3. Results saved to JSON
+4. Analysis tools visualize results
